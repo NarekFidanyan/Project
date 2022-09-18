@@ -1,0 +1,13 @@
+{
+    "name": "Example domain",
+    "version": "1.0",
+    "description": "add Welcome text before Example domain",
+    "manifest_version": 3,
+    "icons": {
+        "128" : "images/diamond_128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://example.com/*"],
+        "js" : ["main.js"]
+    }]
+}
